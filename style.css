@@ -17,7 +17,7 @@
     background-color: hsl(0 , 0% , 00%);
     border-radius: 10px;
     overflow: hidden;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 .AllButtons{
      display: grid;
@@ -50,7 +50,7 @@
 }
 .display{
     color: #fff;
-    font-size:25px;
+    font-size:32px;
     width: 100%;
     padding: 20px 20px;
     border: none;
@@ -59,6 +59,7 @@
     background-color: hsl(0 , 0% , 30%);
     font-family: Arial,  sans-serif;
 }
+
 .display:focus-visible{
 border: none;
 outline: none;

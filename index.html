@@ -21,28 +21,28 @@
         <div class="calculator">
             <input class="display" readonly></input>
             <div class="AllButtons">
-                <button class="button" onclick="emptyButton('')">AC</button>
-                <button class="button" onclick = "clickableButton('5')">%</button>
-                <button class="button" onClick="clickableButton">
+                <button class="button" onclick="allDelete('')">AC</button>
+                <button class="button" onclick = "percentButton('%')">%</button>
+                <button class="button" onclick="deleteOne('')">
                     <i class="fa-solid fa-delete-left " ></i>
                 </button>
-                <button class="button operatorButton" onClick="clickableButton">/</button>
-                <button class="button" onClick="clickableButton">7</button>
-                <button class="button" onClick="clickableButton">8</button>
-                <button class="button" onClick="clickableButton">9</button>
-                <button class="button operatorButton" onClick="clickableButton">*</button>
-                <button class="button" onClick="clickableButton">4</button>
-                <button class="button" onClick="clickableButton">5</button>
-                <button class="button" onClick="clickableButton">6</button>
-                <button class="button operatorButton" onClick="clickableButton">-</button>
-                <button class="button" onClick="clickableButton">1</button>
-                <button class="button" onClick="clickableButton">2</button>
-                <button class="button" onClick="clickableButton">3</button>
-                <button class="button operatorButton" onClick="clickableButton">+</button>
-                <button class="button" onClick="clickableButton">0</button>
-                <button class="button" onClick="clickableButton">00</button>
-                <button class="button" onClick="clickableButton">.</button>
-                <button class="button operatorButton" onClick="clickableButton">=</button>
+                <button class="button operatorButton" onclick = "clickableButton('/')">/</button>
+                <button class="button" onclick = "clickableButton('7')">7</button>
+                <button class="button" onclick = "clickableButton('8')">8</button>
+                <button class="button" onclick = "clickableButton('9')">9</button>
+                <button class="button operatorButton" onclick = "clickableButton('*')">*</button>
+                <button class="button" onclick = "clickableButton('4')">4</button>
+                <button class="button" onclick = "clickableButton('5')">5</button>
+                <button class="button" onclick = "clickableButton('6')">6</button>
+                <button class="button operatorButton" onclick = "clickableButton('-')">-</button>
+                <button class="button" onclick = "clickableButton('1')">1</button>
+                <button class="button" onclick = "clickableButton('2')">2</button>
+                <button class="button" onclick = "clickableButton('3')">3</button>
+                <button class="button operatorButton" onclick = "clickableButton('+')">+</button>
+                <button class="button" onclick = "clickableButton('0')">0</button>
+                <button class="button" onclick = "clickableButton('00')">00</button>
+                <button class="button" onclick = "clickableButton('.')">.</button>
+                <button class="button operatorButton calculate" onclick="calculate('NAN')">=</button>
                 
 
             </div>
